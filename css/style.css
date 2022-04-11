@@ -1,0 +1,261 @@
+ 
+                            /*
+                            Author : Afaq Ali Khan
+                            Theme : RESTURANT WEBSITE
+                            VERSION : 1.0
+                            */
+
+ /* css for All */
+*{
+     margin : 0 0;
+     padding : 0 0;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .container{
+     /* border : 1px solid red; */
+     width : 80%;
+     margin : auto;
+     padding : 1%;
+ }
+
+ h2{
+     font-size: 2rem;
+     color :#110606c2;
+ }
+
+ h3{
+     font-size: 1.3rem;
+ }
+
+ .float-container{
+     position: relative;
+     /* left:  79; */
+ }
+
+ .float-text{
+     position: absolute;
+     bottom: 50px;
+     left : 40%;
+ }
+
+ .text-white{
+     color : white;
+ }
+
+ .img-responsive{
+      width : 100%;
+ }
+
+ .img-curve{
+     border-radius: 15px;
+ }
+
+ a{
+    color : rgb(245, 87, 87);
+    
+     text-decoration : none;
+ }
+
+ a:hover{
+      color : rgb(250, 36, 36);
+
+ }
+
+ .btn{
+       padding : 1%;
+       border : none;
+       font-size : 1rem;
+       border-radius : 5px;
+ }
+
+ .btn-primary{
+     background-color: rgb(245, 87, 87);
+     color : white;
+     cursor : pointer;
+    
+ }
+
+ .btn-primary:hover{
+     color : white;
+     background-color:rgb(250, 36, 36);
+ }
+
+ /* css for navbar section */
+ .logo{
+    /* border : 1px solid black; */
+    width : 10%;
+    float : left;
+}
+ .logo-responsive{
+     width : 100%;
+ }
+
+ .text-right{
+     text-align : right; 
+ }
+
+ .text-center{
+     text-align: center;
+ }
+
+ .menu{
+     line-height: 40px;
+ }
+
+ .menu ul{
+     list-style-type: none;
+ }
+
+ .menu ul li{
+     display: inline;
+     padding : 1%;
+     font-weight: bold;
+ } 
+
+ .clearfix{
+     clear : both;
+     float : none;
+     
+ }
+
+ .food-search{
+        background-image: url(../images/bg.jpg);
+        padding : 7% 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+ }
+
+ .food-search input[type = "search"]
+ {
+     width : 50%;
+     padding : 1%;
+     font-size : 1rem;
+     border : none;
+     border-radius : 5px;
+ }
+
+                           /* css for categories */
+
+    .categories{
+         padding: 4% 0;
+        
+    }
+
+    .box-3{
+        /* border: 1px solid black; */
+        width : 28%;
+        float : left;
+        margin : 2%;
+    }
+
+                        /* css for food-menu */
+
+    .food-menu{
+        background-color: #ececec;
+        padding: 4% 0;
+    }
+
+    .food-6{
+        /* border : 1px solid black; */
+        width : 43%;
+        margin : 1%;
+        float : left;
+        padding : 2%;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .food-menu-img{
+          width : 20%;
+          float : left;
+    }
+
+    .food-menu-desc{
+        width : 70%;
+        float : left;
+        margin-left: 8%;
+    }
+
+    .food-price{
+        font-size: 1.2rem;
+        margin: 2% 0;
+    }
+
+    .food-detail{
+          font-size : 0.8rem;
+          color : #747d8c;
+    }
+
+                            /* css for social */
+
+    .social ul{
+        list-style-type: none;
+    }
+
+    .social ul li{
+        display: inline;
+        padding: 1%;
+    }
+
+                        /* for mobile responsive */
+
+
+        @media only screen and (max-width:768px){
+             .logo{
+                 width : 80%;
+                 float : none;
+                 margin : 1% auto;
+             }
+
+             .menu ul{
+                  text-align: center;
+             }
+
+             .food-search input[type="search"]{
+                 width: 90%;
+                 padding: 2%;
+                 margin-bottom: 3%;
+             }
+
+             .btn{
+                 width : 91%;
+                 padding : 2%;
+             }
+
+             .box-3{
+                 width : 90%;
+                 margin : 4% auto;
+             }
+
+             .food-6{
+                 width : 90%;
+                 padding : 5%;
+                 margin-bottom: 5%;
+             }
+
+             .food-menu{
+                padding: 20% 0;
+             }
+             
+             .social{
+                 padding : 5% 0;
+             }
+
+        }
+
+                        
+
+
+
+
+
+
+     
+
+    
+
+ 
+
+
